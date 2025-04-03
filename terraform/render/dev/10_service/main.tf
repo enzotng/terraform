@@ -1,6 +1,6 @@
 resource "render_web_service" "front" {
     name = "front"
-    plan = "starter"
+    plan = "free"
     region = "frankfurt"
     runtime_source = {
         image = {
@@ -13,7 +13,7 @@ resource "render_web_service" "front" {
 
 resource "render_web_service" "back" {
     name = "back"
-    plan = "starter"
+    plan = "free"
     region = "frankfurt"
     runtime_source = {
         image = {
