@@ -14,5 +14,5 @@
 *.tfvars
 terraform.exe
 .terraform*
-# *.tfstate*
+*.tfstate*
 # backend.tfstate
